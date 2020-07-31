@@ -1,3 +1,6 @@
+term.clear()
+term.setCursorPos(1, 1)
+
 write("Enter URL: ")
 local URL = read()
 http.request(URL)
