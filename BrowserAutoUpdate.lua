@@ -4,5 +4,4 @@ shell.run("wget https://raw.githubusercontent.com/Eevvaann6/CC-Browser/master/Br
 term.clear()
 term.setCursorPos(1, 1)
 print("Starting...")
-sleep(3)
 shell.run(".browser")
