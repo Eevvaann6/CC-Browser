@@ -1,4 +1,5 @@
-local URL = 
+write("Enter URL")
+local URL = read()
 http.request(URL)
 
 while true do
