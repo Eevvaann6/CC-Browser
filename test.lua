@@ -1,4 +1,5 @@
-http.request("http://example.com")
+local URL = 
+http.request(URL)
 
 while true do
   local event, url, handle = os.pullEvent()
