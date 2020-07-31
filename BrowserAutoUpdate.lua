@@ -1,4 +1,4 @@
-shell.run("delete BrowserApp.lua")
+shell.run("delete .browser")
 term.clear()
 shell.run("wget https://raw.githubusercontent.com/Eevvaann6/CC-Browser/master/BrowserApp.lua .browser")
 term.clear()
