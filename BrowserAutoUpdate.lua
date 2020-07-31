@@ -1,3 +1,7 @@
 shell.run("delete BrowserApp.lua")
+term.clear()
 shell.run("wget https://raw.githubusercontent.com/Eevvaann6/CC-Browser/master/BrowserApp.lua")
 term.clear()
+term.setCursorPos(1, 1)
+print("Starting...")
+shell.run("BrowserApp.lua")
