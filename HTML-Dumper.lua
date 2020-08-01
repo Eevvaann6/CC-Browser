@@ -6,4 +6,4 @@ local URL = read()
 local HTML = http.request(URL)
 print(HTML)
 
-shell.run("wget ", url .. " ", url)
+shell.run("wget ", url .. " Websites/", url)
