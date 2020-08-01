@@ -5,4 +5,11 @@ write("Enter URL: ")
 local URL = read()
 local HTML = http.request(URL)
 print(HTML)
-shell.run("wget ", URL .. " ", URL)
+
+local site = table.concat({
+    "https://raw.githubusercontent.com",
+    URL,
+    URL,
+}, " ")
+
+shell.run("wget ", site)
